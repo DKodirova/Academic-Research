@@ -1,6 +1,7 @@
 **COMPARATIVE ANALYSIS OF ESG vs. FINANCIAL INDICATORS ON PREDICTING BETA**
 
 **Abstract**
+
 This research investigates the use of Environmental, Social, and Governance (ESG) performance and financial indicators in predicting companies' future financial outcomes. Specifically, we compare the significance of 2 Bloomberg ESG scores with 9 traditional financial ratios in forecasting stocks' betas, leveraging Random Forest Classifier machine learning algorithms. Additionally, we provide valuable insights into the relative importance in each of the 11 Global Industry Classification Standard (GICS) sectors, differentiating their predictive power in bullish and bearish market conditions.
 The study aims to address a fundamental question: Does prioritizing "doing good" through ESG practices align with "doing well" financially?
 
@@ -20,7 +21,7 @@ The initial application of the model to the general dataset yielded convincing r
 
 By analyzing the feature importance breakdown of the model in Figure 5, given below, we observed that ESG Score and ESG Disclosure Score  played a discernible role in predicting returns, contributing 7.6% and 6.3% importance, respectively. Although these values are slightly lower than the average mean of importance for all other financial indicators (8.0%), it is noteworthy that ESG measurements showcased their potential value as predictive factors.
 
-To gain deeper insights, we examined the breakdowns for 11 GICS sectors and 2 market types, as presented in the accompanying graphs.
+To gain deeper insights, we examined the breakdowns for 11 GICS sectors and 2 market types, each of which are given in Part II Python Notebooks.
 
 **Discussion**
 
